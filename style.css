@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(20, 18, 18);
+}
+
+.mainscreen{
+    height: 1000px;
+    width: 900px;
+    display: flex;
+}
+
+.media{
+    width: 200px;
+    height: 700px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.imageicon{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    opacity: 50%;
+}
+
+.imageicon:hover{
+    transform: scale(1.2);
+    margin-bottom: 10px;
+    opacity: 100%;
+}
+
+/*----Left Navigation Bar---*/
+.nav{
+    height: 600px;
+    width: 100px;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.profile{
+    background-color: rgb(122, 122, 122);
+    height: 100px;
+    width: 100px;
+    opacity: 50%;
+    border-radius: 7px;
+}
+.profile:hover{
+    opacity: 100%;
+    transition: .5s;
+    width: 150px;
+    background-color: rgb(255, 170, 73);
+}
+.profileshadow img{
+    box-shadow: 0px 0px 5px 5px black;
+}
+
+.autobiography{
+    background-color: rgb(122, 122, 122);
+    height: 100px;
+    width: 100px;
+    opacity: 50%;
+    border-radius: 7px;
+}
+.autobiography:hover{
+    opacity: 100%;
+    transition: .5s;
+    width: 150px;
+    background-color: rgb(0, 143, 31);
+}
+
+.home {
+    background-color: rgb(122, 122, 122);
+    height: 100px;
+    width: 100px;
+    opacity: 50%;
+    border-radius: 7px;
+}
+.home:hover{
+    opacity: 100%;
+    transition: .5s;
+    width: 150px;
+    background-color: rgb(9, 68, 156);
+}
+
+.education{
+    background-color: rgb(122, 122, 122);
+    height: 100px;
+    width: 100px;
+    opacity: 50%;
+    border-radius: 7px;
+}
+.education:hover{
+    opacity: 100%;
+    transition: .5s;
+    width: 150px;
+    background-color: rgb(134, 4, 32);
+}
+
+.talent{
+    background-color: rgb(122, 122, 122);
+    height: 100px;
+    width: 100px;
+    opacity: 50%;
+    border-radius: 7px;
+}
+.talent:hover{
+    opacity: 100%;
+    transition: .5s;
+    width: 150px;
+    background-color: rgb(0, 131, 87);
+}
+
+.Home{
+    background-color: rgb(122, 122, 122);
+    height: 100px;
+    width: 100px;
+    opacity: 50%;
+    border-radius: 7px;
+}
+.Home a{
+    font-size: 25px;
+    color: black;
+}
+.Home:hover{
+    opacity: 100%;
+    transition: .5s;
+    width: 150px;
+    animation: home .5s infinite;
+}
+
+@keyframes home {
+    0% {background-color:rgb(255, 0, 0);}
+    10%{background-color:rgb(255, 123, 0); color: rgb(49, 48, 48);}
+    20%{background-color:rgb(217, 255, 0); color: rgb(133, 133, 133)}
+    30%{background-color:rgb(0, 255, 34); color: rgb(206, 206, 206)}
+    40%{background-color:rgb(9, 90, 40); color: rgb(231, 227, 227)}
+    50%{background-color:rgb(10, 99, 72); color: rgb(255, 255, 255)}
+    60%{background-color:rgb(34, 118, 124); color: rgb(205, 255, 255);}
+    70%{background-color:rgb(11, 53, 145); color: rgb(133, 133, 133)}
+    80%{background-color:rgb(120, 15, 218); color: rgb(85, 81, 81)}
+    90%{background-color:rgb(219, 15, 238); color: rgb(46, 46, 46)}
+    100%{background-color:rgb(248, 6, 147); color: rgb(26, 26, 26)}
+}
+
+/*----Target Screen---*/
+.target{
+    height: 700px;
+    width: 800px;
+    margin-left: 50px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+
+/*----Home Iframe----*/
+.probody{
+    height: 700px;
+    width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.homeinfo p{
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+}
+.homebody{
+    animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+    0% {background-color:rgb(103, 232, 255);}
+    10%{background-color:rgb(74, 247, 166); color: rgb(49, 48, 48);}
+    20%{background-color:rgb(20, 209, 36); color: rgb(133, 133, 133)}
+    30%{background-color:rgb(42, 134, 34); color: rgb(206, 206, 206)}
+    40%{background-color:rgb(39, 90, 9); color: rgb(231, 227, 227)}
+    50%{background-color:rgb(57, 99, 10); color: rgb(255, 255, 255)}
+    60%{background-color:rgb(118, 124, 34); color: rgb(205, 255, 255);}
+    70%{background-color:rgb(65, 145, 11); color: rgb(133, 133, 133)}
+    80%{background-color:rgb(197, 218, 15); color: rgb(85, 81, 81)}
+    90%{background-color:rgb(238, 223, 15); color: rgb(46, 46, 46)}
+    100%{background-color:rgb(248, 232, 6); color: rgb(26, 26, 26)}
+}
+
+/*-------------------- Nav Bar ' Target ' Iframe --------------------*/
+
+.profilemain{
+    background-image: linear-gradient(to bottom right, rgb(236, 227, 227), rgb(250, 169, 76));
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    border-radius: 10px;
+    width: 800px;
+    height: 700px;
+}
+
+.autobiographymain{
+    background-image: linear-gradient(to bottom right, rgb(89, 253, 143), rgb(24, 95, 42));
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    width: 800px;
+    height: 700px;
+    display: flex;
+}
+
+
+/*-------------ADDRESS----------*/
+.addressmain{
+    background-image: linear-gradient(to bottom right, rgb(69, 177, 240), rgb(16, 30, 95));
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    width: 800px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hermosa{
+    margin-left: 20px;
+    display: flex;
+    margin-top: 40px;
+}
+.hermosaInfo p{
+    margin-bottom: 20px;
+    width: 300px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.picHermosa img{
+    border-radius: 10px;
+}
+.picHermosa{
+    margin-left: 50px;
+}
+.picHermosa img:hover{
+    transform: scale(1.2);
+}
+.caloocanmap img{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.educationmain{
+    background-image: linear-gradient(to bottom right, rgb(230, 59, 59), rgb(95, 16, 16));
+    display: flex;
+}
+.table{
+    width: 725px;
+    height: 600px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.tablecontent{
+    width: 675px;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.content{
+    width: 675px;
+    height: 175px;
+    display: flex;
+}
+
+.font p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 400px;
+}
+.image{
+    margin-top: 20px;
+}
+/*------------Talent-------------*/
+.talentmain{
+    background-image: linear-gradient(to bottom right, rgb(69, 240, 189), rgb(5, 109, 57));
+    width: 800px;
+    height: 700px;
+    display: flex;
+}
+.artcontent{
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.artimages{
+    display: flex;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 175px;
+}
+.artimages img:hover{
+    transform: scale(1.2);
+}
